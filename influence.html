@@ -54,7 +54,7 @@
                 <div class="block-2">
                     <a href="chronology.html" class="block-2-1">Хронология</a>
                     <a href="bio.html" class="block-2-1">Биография</a>
-                    <a href="index.html" class="block-2-1">Главная</a>
+                    <a href="influence.html" class="block-2-1">Влияние</a>
                 </div>
             </section>
             <section class="influence-header">
@@ -137,26 +137,26 @@
                         </div>
                     </div>
                     <div class="footer-section">
-                        <h3>Подписаться на рассылку</h3>
-                        <form class= "sub-form" action="#" method=" POST">
-                            <input type="text" placeholder="Имя" required>
-                            <input type="email" placeholder="Почта" required>
-                            <div class="select-gender">
-                                <label>Пол:</label>
-                                <div class="select-gender-options">
-                                    <div class="select-gender-option">
-                                        <input type="radio" id="male" name="gender" value="male">
-                                        <label for="male">Мужской</label>
-                                    </div>
-                                    <div class="select-gender-option">
-                                        <input type="radio" id="female" name="gender" value="female">
-                                        <label for="female">Женский</label>
-                                    </div>
+                    <h3>Подписаться на рассылку</h3>
+                    <form class="sub-form" id="subscriptionForm">
+                        <input type="text" name="name" id="subName" placeholder="Имя" required>
+                        <input type="email" name="email" id="subEmail" placeholder="Почта" required>
+                        <div class="select-gender">
+                            <label>Пол:</label>
+                            <div class="select-gender-options">
+                                <div class="select-gender-option">
+                                    <input type="radio" id="male" name="gender" value="male" required>
+                                    <label for="male">Мужской</label>
+                                </div>
+                                <div class="select-gender-option">
+                                    <input type="radio" id="female" name="gender" value="female" required>
+                                    <label for="female">Женский</label>
                                 </div>
                             </div>
-                            <button type="submit">Подписаться</button>
-                        </form>
-                    </div>
+                        </div>
+                        <button type="submit" id="subscribeButton">Подписаться</button>
+                    </form>
+                </div>
                     <div class="footer-section">
                         <h3>Быстрые ссылки</h3>
                         <ul class="footer-links">
@@ -168,6 +168,6 @@
                     </div>
                 </div>
             </div>
-        </footer>
+    </footer>
     </body>
-    </html>
+</html>
